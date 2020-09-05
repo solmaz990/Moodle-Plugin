@@ -39,4 +39,8 @@ class MsnCar
         $this->wheel_count=$wheel_count;
 
     }
+    function car_details()
+    {
+        echo $this->name.'has'.$this->wheel_count.'wheels and'.$this->door_count.'doors';
+    }
 }
